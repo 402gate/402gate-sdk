@@ -1,0 +1,15 @@
+{
+  "name": "@402gate/sdk",
+  "version": "0.0.1",
+  "description": "Official SDK for 402Gate HTTP Paywall Protocol on Solana",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "echo build-skipped (Devnet preview)"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0"
+  }
+}
