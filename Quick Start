@@ -1,0 +1,8 @@
+import { fetchWith402 } from "@402gate/sdk";
+
+const result = await fetchWith402("https://api.402gate.com/data", {
+  payer: wallet,
+  mint: "USDC"
+});
+
+console.log(result);
